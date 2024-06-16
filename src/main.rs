@@ -4,7 +4,7 @@ mod chapter3;
 mod chapter4;
 mod chapter5;
 mod chapter6;
-
+mod chapter7;
 use std::io;
 
 fn main() {
@@ -20,6 +20,7 @@ fn main() {
         //4 => chapter4::chapter4_main(),
         5 => chapter5::chapter5_main(),
         6 => chapter6::chapter6_main(),
+        //7 => chapter7::chapter7_main(),
         _ => println!("Chapter not found"),
     }
 }
